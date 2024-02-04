@@ -1,0 +1,76 @@
+/* CardGrid.css */
+
+/* GENERAL */
+*, *::before, *::after{
+    box-sizing: border-box;
+  }
+  
+  .wrap-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* CARDS STYLES */
+  .card{
+    width: 32%;
+    max-width: 100%;
+    margin: 0 0 4rem;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.25);
+    background-color: #D1F1FF; /* Use the appropriate color value from your palette */
+  }
+  .card .wrap-image{
+    position: relative;
+  }
+  .card .wrap-image img{
+    width: 100%;
+    height: auto;
+  }
+  .card .wrap-image svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+  }
+  .card .wrap-image polygon, .card .wrap-image path{
+    fill: #D1F1FF; /* Use the appropriate color value from your palette */
+    stroke: #D1F1FF; /* Use the appropriate color value from your palette */
+  }
+  .card:nth-child(4) .wrap-image svg path{
+    stroke-width: 3px;
+  }
+  .card:nth-child(5) .wrap-image svg path{
+    stroke-width: 4px;
+  }
+  .card:nth-child(6) .wrap-image svg path{
+    stroke-width: 6px;
+  }
+  .card .contents{
+    padding: 1rem;
+  }
+  .card .contents h3{
+    margin: 0 0 .5rem;
+    font-size: 1.125em;
+    color: #fff; /* Use the appropriate color value for text */
+  }
+  .card .contents .text{
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+    font-size: 0.9em;
+  }
+  
+  /* RESPONSIVE GRID */
+  @media all and (max-width: 768px){
+    .card{
+      width: 49%;
+      margin-bottom: 3rem;
+    }
+  }
+  @media all and (max-width: 480px){
+    .card{
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+  }
+  

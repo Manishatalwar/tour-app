@@ -1,0 +1,45 @@
+/* Styles */
+.booking-container {
+    flex: 1 1 1%;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .image {
+    width: 100%; /* Set width to 100% to make it responsive */
+    height: auto; /* Auto adjust height to maintain aspect ratio */
+    border-radius: 8px;
+  }
+  
+  .booking-details {
+    flex: 2;
+  }
+  
+  .booking-related-details {
+    margin-top: 10px;
+  }
+  
+  /* Media Query for Small Screens */
+  @media screen and (max-width: 600px) {
+    .booking-container {
+      flex-direction: column;
+    }
+  
+    .image-container {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .image {
+      width: 100%; /* Adjust the width as needed for small screens */
+    }
+  }
+  

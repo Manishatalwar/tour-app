@@ -1,0 +1,82 @@
+/* FeaturedList.css */
+
+/* Custom classes for the FeaturedList component */
+.featured-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.religion-buttons {
+  margin-bottom: 20px;
+}
+
+.active {
+  border-bottom: 2px solid #3482B5;
+}
+
+.religion-button {
+  margin: 0 10px; /* Adjust margin for spacing */
+  padding: 10px 20px; /* Adjust padding to make the button larger */
+  background-color: transparent; /* Set background to transparent */
+  color: #3482B5; /* Set text color */
+  border: none;
+  cursor: pointer;
+  font-size: 18px; /* Set the font size to make the text larger */
+  transition: color 0.3s ease-in-out; /* Add transition for smooth color change */
+}
+
+.religion-button:hover {
+  color: #1a5276; /* Change text color on hover */
+}
+
+.card-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured-card {
+  width: 250px; /* Set a fixed width for cards */
+  margin: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transition for smooth effects */
+}
+
+.featured-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust box-shadow on hover */
+}
+
+.card-img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 10px;
+  text-align: left;
+}
+
+.rating-icon svg {
+  padding-top: 4px;
+  width: 24px;
+  height: 27px;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 5px;
+  color: #f39c12;
+}
+.card-overlay {
+  text-align: left;
+  margin-top: -14px;
+  font-size: 14px;
+}

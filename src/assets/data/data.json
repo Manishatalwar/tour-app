@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Westminster Bridge",
+    "city": "London",
+    "address": "Westminster Bridge, London, United Kingdom",
+    "distance": 300,
+    "price": "$99",
+    "desc": "Explore the iconic Westminster Bridge and marvel at the breathtaking views of London. A perfect blend of history and modernity awaits you.",
+    "photo": "https://images.unsplash.com/photo-1706689071171-17f3cfe51a51?q=80&w=1785&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Beautiful Sunset, Santorini",
+    "city": "Santorini",
+    "address": "Oia, Santorini, Greece",
+    "distance": 600,
+    "price": "$129",
+    "desc": "Witness the enchanting sunset at Oia, Santorini. Lose yourself in the captivating beauty of the Aegean Sea and the charming streets of the island.",
+    "photo": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?q=80&w=1785&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Northern Lights, Iceland",
+    "city": "Reykjavik",
+    "address": "Reykjavik, Iceland",
+    "distance": 700,
+    "price": "$149",
+    "desc": "Embark on a journey to witness the mesmerizing Northern Lights in Reykjavik, Iceland. A celestial spectacle awaits you under the Arctic sky.",
+    "photo": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Grand Canyon Adventure",
+    "city": "Arizona",
+    "address": "Grand Canyon, Arizona, United States",
+    "distance": 800,
+    "price": "$169",
+    "desc": "Embark on an adventurous journey to explore the wonders of the Grand Canyon in Arizona. A breathtaking experience awaits you in the heart of nature.",
+    "photo": "https://media.istockphoto.com/id/1089327490/photo/man-on-top-of-horseshoe-bend.jpg?s=2048x2048&w=is&k=20&c=hL5rjngNtRASKMytbPjsNebxQI_Egapnhv-TKB5RU1s=",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Amazon Rainforest Trek",
+    "city": "Manaus",
+    "address": "Manaus, Brazil",
+    "distance": 1000,
+    "price": "$209",
+    "desc": "Embark on an exhilarating trek through the Amazon Rainforest in Manaus, Brazil. Immerse yourself in the biodiversity and natural wonders of the jungle.",
+    "photo": "https://media.istockphoto.com/id/1958066151/photo/humayuns-tomb-is-located-in-new-delhi-india.jpg?s=2048x2048&w=is&k=20&c=oEe4Xr-ozy6jLmxeJlPyMh0oCD4_D74A01boY74VKro=",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Aurora Borealis, Norway",
+    "city": "Oslo",
+    "address": "Oslo, Norway",
+    "distance": 1400,
+    "price": "$289",
+    "desc": "Chase the mesmerizing Aurora Borealis in Norway. Witness the dancing lights in the night sky and immerse yourself in the magical atmosphere.",
+    "photo": "https://media.istockphoto.com/id/614127332/photo/aurora-borealis.jpg?s=2048x2048&w=is&k=20&c=fCE03h56hBELmIpYuIfq3abDjbK6c4U1SwLgkSaUGCI=",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Venice Canals",
+    "city": "Venice",
+    "address": "Venice, Italy",
+    "distance": 1500,
+    "price": "$299",
+    "desc": "Embark on a romantic gondola ride through the enchanting canals of Venice. Experience the timeless beauty and charm of this iconic Italian city.",
+    "photo":"https://media.istockphoto.com/id/1475268443/photo/sydney-skyline-from-the-harbour-bridge-in-australia.jpg?s=2048x2048&w=is&k=20&c=ow-UIJGlfNPPFGvgCczSD9NmmpKzWelQQxz_3ZxYRL8=",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "New York City Skyline",
+    "city": "New York",
+    "address": "New York City, New York, United States",
+    "distance": 1600,
+    "price": "$309",
+    "desc": "Admire the iconic skyline of New York City. Take in the breathtaking views of skyscrapers and landmarks that define the city that never sleeps.",
+    "photo": "https://media.istockphoto.com/id/538811669/photo/manhattan-panorama-with-its-skyscrapers-illuminated-at-dusk-new-york.jpg?s=2048x2048&w=is&k=20&c=A23Ek2HSVBj5nXFQ7zGdGdc8XtQF0tskm_G-_KPMmZ4=",
+    "featured": false
+  }
+]
